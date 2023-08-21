@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="compra-saga-credito" />
+        <module name="compra-saga-orquestrador" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="compra-saga (1)" target="17" />
+      <module name="compra-saga (2)" target="17" />
+      <module name="compra-saga (3)" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="compra-saga" options="-parameters" />
+      <module name="compra-saga (1)" options="-parameters" />
+      <module name="compra-saga (2)" options="-parameters" />
+      <module name="compra-saga (3)" options="-parameters" />
+      <module name="compra-saga-credito" options="-parameters" />
+      <module name="compra-saga-orquestrador" options="-parameters" />
+    </option>
+  </component>
+</project>
